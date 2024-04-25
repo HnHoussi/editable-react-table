@@ -6,15 +6,15 @@ export const Modal = () => {
     <div className="modal-container">
       <div className="modal">
         <form action="">
-          <div>
+          <div className="form-group">
             <label htmlFor="page">Page</label>
             <input name="page" id="page" />
           </div>
-          <div>
+          <div className="form-group">
             <label htmlFor="desc">Description</label>
             <textarea name="desc" id="desc" />
           </div>
-          <div>
+          <div className="form-group">
             <label htmlFor="status">Status</label>
             <select name="status" id="status" >
               <option value="live">Live</option>
@@ -22,7 +22,7 @@ export const Modal = () => {
               <option value="error">Error</option>
             </select>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit" className="btn">Submit</button>
         </form>
       </div>
     </div>
