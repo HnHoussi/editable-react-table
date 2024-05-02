@@ -2,7 +2,7 @@ import React from "react";
 import { BsFillPencilFill, BsFillTrashFill } from "react-icons/bs";
 import "./Table.css";
 
-const Table = () => {
+export const Table = () => {
   return (
     <div className="table-wrapper">
       <table className="table">
@@ -59,5 +59,3 @@ const Table = () => {
     </div>
   );
 };
-
-export default Table;
